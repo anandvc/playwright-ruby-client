@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'playwright/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'playwright-ruby-client'
+  spec.name          = 'playwright'
   spec.version       = Playwright::VERSION
 
   spec.authors       = ['YusukeIwaki']
